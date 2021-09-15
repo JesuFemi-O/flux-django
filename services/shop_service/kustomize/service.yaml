@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: shop-service
+  labels:
+    app: flux-app-demo
+    tier: backend
+    type: shop
+spec:
+  type: NodePort
+  ports:
+    - port: 8001
+      targetPort: 8001
+      nodePort: 30002
+  selector:
+    app: flux-app-demo
+    tier: backend
