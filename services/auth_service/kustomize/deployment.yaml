@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-deployment
+  labels:
+    app: flux-app-demo
+    tier: backend
+spec:
+  selector:
+    matchLabels:
+      app: flux-app-demo
+      tier: auth-backend
+  template:
+    metadata:
+      name: auth-service-pod
+      labels:
+        app: flux-app-demo
+        tier: backend
+    spec:
+      containers:
+        - name: auth-container
+          image: jayefee/django-flux-auth
+          ports:
+            - containerPort: 8000      
+  replicas: 1
+
+    
