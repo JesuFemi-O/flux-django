@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: flux-app-demo
-      tier: auth-backend
+      tier: backend
   template:
     metadata:
       name: auth-service-pod
