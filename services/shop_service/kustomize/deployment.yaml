@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shop-deployment
+  labels:
+    app: flux-app-demo
+    tier: backend
+    type: shop
+spec:
+  selector:
+    matchLabels:
+      app: flux-app-demo
+      tier: backend
+      type: shop
+  template:
+    metadata:
+      name: shop-service-pod
+      labels:
+        app: flux-app-demo
+        tier: backend
+        type: shop
+    spec:
+      containers:
+        - name: shop-container
+          image: jayefee/django-flux-shop
+          ports:
+            - containerPort: 8001      
+  replicas: 1
+
+    
