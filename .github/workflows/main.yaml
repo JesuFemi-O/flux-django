@@ -1,3 +1,5 @@
+name: Dockerize Microservices
+on: push
 jobs:
   docker:
     runs-on: ubuntu-latest
