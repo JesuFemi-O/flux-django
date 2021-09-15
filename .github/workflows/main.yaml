@@ -1,5 +1,8 @@
 name: Dockerize Microservices
-on: push
+on:
+  push:
+    branches:
+      - main
 jobs:
   docker:
     runs-on: ubuntu-latest
