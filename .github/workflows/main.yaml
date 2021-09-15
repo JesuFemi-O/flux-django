@@ -34,7 +34,7 @@ jobs:
           BASE_NAME="$USERNAME/django-flux-auth"
           IMAGE_NAME="$BASE_NAME:$GITHUB_SHA"
           docker pull $BASE_NAME || true
-          docker build --cache-from $BASE_NAME -t $IMAGE_NAME -t $BASE_NAME -f services/auth_service/Dockerfile .
+          docker build --cache-from $BASE_NAME -t $IMAGE_NAME -t $BASE_NAME -f services/auth_service/Dockerfile services/auth_service/
           docker push $IMAGE_NAME
           docker push $BASE_NAME
         env:
