@@ -6,4 +6,4 @@ resources:
 images:
 - name: django-flux-shop
   newName: django-flux-shop
-  newTag: 52121d3ce39d7cfb688a84d8242cf84ae6fc9f64
+  newTag: 6c7c6c94b7e0cd4663b5078e68e55acf9b28bdb3
