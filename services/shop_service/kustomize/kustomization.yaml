@@ -3,3 +3,7 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
+images:
+- name: django-flux-shop
+  newName: jayefee/django-flux-shop
+  newTag: c3d948e60229e20250439dec54288e25834586f3
