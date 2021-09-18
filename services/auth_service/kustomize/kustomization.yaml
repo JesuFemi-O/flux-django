@@ -4,6 +4,6 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: django-flux-auth
-  newName: django-flux-auth
+- name: IMAGE_PLACEHOLDER
+  newName: jayefee/django-flux-auth
   newTag: 6c7c6c94b7e0cd4663b5078e68e55acf9b28bdb3
