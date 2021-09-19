@@ -6,4 +6,4 @@ resources:
 images:
 - name: IMAGE_PLACEHOLDER
   newName: django-flux-shop
-  newTag: 67d0b68af412590e1418f23e87a85c757cd667bd
+  newTag: 976315a17ab709bc396465e1456499e39ff94308
