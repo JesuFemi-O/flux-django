@@ -9,3 +9,5 @@ urlpatterns = [
     #     path('item/<int:shop_id>/<int:item_id>/',
     #          view=views.ItemDetail.as_view(), name='item detail')
 ]
+
+# forcefully update app
