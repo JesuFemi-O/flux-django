@@ -10,4 +10,4 @@ urlpatterns = [
     #          view=views.ItemDetail.as_view(), name='item detail')
 ]
 
-# forcefully update app
+# forcefully update app, again
