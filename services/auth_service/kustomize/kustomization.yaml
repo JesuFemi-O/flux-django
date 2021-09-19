@@ -6,4 +6,4 @@ resources:
 images:
 - name: IMAGE_PLACEHOLDER
   newName: django-flux-auth
-  newTag: 8bd0eadba75b9cb6b19cd28a819a2691b4625530
+  newTag: 93cf10234e91b042756169761a90f3c41ba37c2e
