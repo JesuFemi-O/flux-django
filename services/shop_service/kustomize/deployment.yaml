@@ -23,6 +23,7 @@ spec:
       containers:
         - name: shop-container
           image: jayefee/django-flux-shop
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8001      
   replicas: 1
