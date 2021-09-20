@@ -6,4 +6,4 @@ resources:
 images:
 - name: IMAGE_PLACEHOLDER
   newName: jayefee/django-flux-shop
-  newTag: 1907b6a637ea93ec4d305cc2a17ea680876288ec
+  newTag: 65b2e715e27826e05ab67ef9b3e36e7bd6ad6b6b
