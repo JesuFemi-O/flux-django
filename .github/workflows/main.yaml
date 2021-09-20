@@ -49,12 +49,12 @@ jobs:
     - name: Update auth yamls
       working-directory: services/auth_service/kustomize
       run: |-
-        ../../kustomize edit set image IMAGE_PLACEHOLDER=django-flux-auth:${{ github.sha }}
+        ../../kustomize edit set image IMAGE_PLACEHOLDER=jayefee/django-flux-auth:${{ github.sha }}
 
     - name: Update shop yamls
       working-directory: services/shop_service/kustomize
       run: |-
-        ../../kustomize edit set image IMAGE_PLACEHOLDER=django-flux-shop:${{ github.sha }}
+        ../../kustomize edit set image IMAGE_PLACEHOLDER=jayefee/django-flux-shop:${{ github.sha }}
 
     # Commit and push
     - name: Commit files
