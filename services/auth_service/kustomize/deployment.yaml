@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
         - name: auth-container
-          image: jayefee/django-flux-auth
-          imagePullPolicy: Always
+          image: IMAGE_PLACEHOLDER
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000      
   replicas: 1
