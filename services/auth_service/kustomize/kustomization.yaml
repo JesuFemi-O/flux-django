@@ -6,4 +6,4 @@ resources:
 images:
 - name: IMAGE_PLACEHOLDER
   newName: jayefee/django-flux-auth
-  newTag: 8b8babfb15c787320abdfd359bdf9a99210d1854
+  newTag: 1907b6a637ea93ec4d305cc2a17ea680876288ec
