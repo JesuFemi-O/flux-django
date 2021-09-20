@@ -5,5 +5,5 @@ resources:
 - service.yaml
 images:
 - name: IMAGE_PLACEHOLDER
-  newName: django-flux-shop
-  newTag: 7ca6eb560d7ea3a17c6082ad3f253a35c409e73c
+  newName: jayefee/django-flux-shop
+  newTag: 190245f1e24c8e8294e8665691a6a4c31c78ab7c
